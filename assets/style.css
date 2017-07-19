@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #777777;
+  background-image: url("http://img.freepik.com/free-photo/white-wall_1194-5956.jpg?size=338&ext=jpg");
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  border-color: #cccccc;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #777777;
+  text-align: center;
+  background: #ffffff;
+  border-color: #cccccc;
+}
+
+h2 {
+  font-size: 24px;
+  font-color: #4aaaa5;
+  padding: 20px;
+
+}
+
+a {
+  color: #d21034;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background: #ccc;
+  margin-bottom: 20px;
+}
+#Top-left {
+  background-color: #666;
+  padding: 30px;
+  width: 33.3%;
+  float: left;
+}
+#Top-right {
+  float: right;
+  background-color: #888;
+  padding: 30px;
+  width: 33.3%
+
+}
+#Middle-left {
+  float: left;
+  background-color: #666;
+  padding: 30px;
+  width: 33.3%;
+}
+#Middle-right {
+  clear: right;
+  background-color: #eee;
+  width: 100%;
+  overflow:auto;
+}
+#Middle-left {
+  clear: left;
+  background-color: #eee;
+  width: 100%;
+  overflow:auto;
+}
+#Bottom-left {
+  clear: left;
+  background-color: #eee;
+  width: 100%;
+  overflow:auto;
+}
+
+}
+footer {
+  color: #777777;
+  background-color: #666666;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+  float: left;
+}
+
+#main-bio {
+  width: 70%;
+}
+
+#contact-info {
+  width: 30%;
+}
+
+#bio-image {
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
