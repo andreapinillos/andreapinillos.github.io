@@ -17,7 +17,11 @@ header {
   border-bottom: 4px solid darkgray;
   display: flex;
 }
-
+li {
+    display: inline;
+    float: left;
+    margin: 10px;
+}
 img {
   border: 2px solid #cccccc;
 }
@@ -53,16 +57,6 @@ input[type=submit]:hover {
     background-color: #4aaaa5;
 }
 
-#top {
-  background: white;
-  padding: 15px;
-  margin-left: 500px;
-  margin-right: 20px;
-  margin-top: 30px;
-  font-size: 21px;
-  font-color: bold white;
-  text-align: center;
-}
 #contact {
   background-color: #ffffff;
   color: #777777;
@@ -82,9 +76,11 @@ input[type=submit]:hover {
   margin: 20px;
   font-size: 18px;
   font-style: bold;
-  color: gray;
+  color: darkgray;
 }
 #portfolio {
+  font-size: 30px;
+  font-family: serif;
   float: both;
   margin: 20px;
 }
@@ -156,6 +152,13 @@ input[type=submit]:hover {
   color: white;
   font-family: Times, serif;
   border: 4px solid darkgray;
+}
+
+.nav {
+    list-style-type: none;
+    background-color: white;
+    padding: 45px;
+    margin-left: 400px;
 }
 .container {
   border: 4px solid darkgray;
