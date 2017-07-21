@@ -11,26 +11,16 @@ body {
 }
 
 header {
-  height: 100px;
-  width: 100%;
+  padding: 10, 10, 0, 10;
   background: #ffffff;
-  border-bottom: 4px solid #cccccc;
-  z-index: 1;
+  margin: 0px auto;
+  border-bottom: 4px solid darkgray;
+  display: flex;
 }
-
-h1 {
-  font-size: 30px;
-  margin-left: 60px;
-  color: #777777;
-  text-align: left;
-  font-family: Times, serif;
-}
-
-h2 {
-  font-size: 30px;
-  font-color: #777777;
-  padding: 10px;
-
+li {
+    display: inline;
+    float: left;
+    margin: 10px;
 }
 img {
   border: 2px solid #cccccc;
@@ -66,82 +56,73 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #4aaaa5;
 }
-footer {
-  height: 100px;
-  width: 100%;
-  border-top: 6px solid #4aaaa5;
-  text-align: center;
-  font-size: 16px;
-  background: #666666;
-  color: #ffffff;
-  background-color: #666666;
-}
-#top {
-  background: #4aaaa5;
-  padding: 15px;
-  margin-left: 800px;
-  margin-right: 40px;
-  font-size: 24px;
-  font-color: bold white;
-  text-align: center;
-}
+
 #contact {
-  float: right;
-  width: 18%;
   background-color: #ffffff;
-  margin: 30px 12% 30px 0%;
-  border: 4px solid;
-  border-color: #dddddd
-  padding: 20px 3% 40px 3%;
-  cursor: auto;
+  color: #777777;
+  text-align: center;
+  padding: 20px;
+  border: 4px solid darkgray;
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-right: 45%;
+  width: 200px;
+  position: absolute;
+  top: 130px;
+  left: 800px;
 }
 #action {
   padding: 30px
   margin: 20px;
   font-size: 18px;
   font-style: bold;
-  color: gray;
+  color: darkgray;
 }
 #portfolio {
-  float: center;
+  font-size: 30px;
+  font-family: serif;
+  float: both;
   margin: 20px;
 }
 #Top-left {
   background-color: #4aaaa5;
   padding: 15px;
   margin: 15px;
-  width: 33.3%;
-  border: 1px solid black;
+  width: 50%;
+  overflow:auto;
+  border: 1px solid darkgray;
 }
 #Top-right {
   background-color: #4aaaa5;
   padding: 15px;
   margin: 15px;
-  width: 33.3%;
-  border: 1px solid black;
+  width: 50%;
+  overflow:auto;
+  border: 1px solid darkgray;
 }
 #Middle-left {
   background-color: #4aaaa5;
   padding: 15px;
   margin: 15px;
-  width: 33.3%;
-  border: 1px solid black;
+  width: 50%;
+  overflow:auto;
+  border: 1px solid darkgray;
 }
 #Middle-right {
   background-color: #4aaaa5;
   padding: 15px;
   margin: 15px;
-  width: 33.3%;
+  width: 50%;
   overflow:auto;
-  border: 1px solid black;
+  border: 1px solid darkgray;
 }
 #Bottom-left {
   background-color: #4aaaa5;
   padding: 15px;
   margin: 15px;
-  width: 33.3%;
+  width: 50%;
   overflow:auto;
-  border: 1px solid black;
+  border: 1px solid darkgray;
 }
 
 #main-bio,
@@ -160,15 +141,48 @@ footer {
   margin-right: 20px;
 }
 
-.container {
-  height: 400px;
-  background-color: #ffffff;
-  border: 4px solid;
-  border-color: #dddddd;
-  margin: 60px
+.logo{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: 100px;
+  position: relative;
+  background: #4aaaa5;
+  font-size: 16px;
+  color: white;
+  font-family: Times, serif;
+  border: 4px solid darkgray;
 }
 
-.clearfix::after {
+.nav {
+    list-style-type: none;
+    background-color: white;
+    padding: 45px;
+    margin-left: 400px;
+}
+.container {
+  border: 4px solid darkgray;
+  background-color: #ffffff;
+  color: #777777;
+  margin-top: 80px;
+  margin-right: 45%;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  padding: 20px;
+}
+
+footer {
+  margin-top: 150px;
+  clear:both;
+  padding: 40px;
+  border-top: 6px solid #4aaaa5;
+  text-align: center;
+  font-size: 16px;
+  background: #666666;
+  color: #ffffff;
+  background-color: #666666;
+}
+.clearfix:after {
   content: "";
   display: block;
   clear: both;
