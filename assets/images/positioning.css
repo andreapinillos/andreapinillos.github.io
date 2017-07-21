@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+}
+
+.wrapper{
+width: 10px;
+}
+
+#content {
+  padding: 50px;
+  margin-right: 40px;
+  margin-left: 60px;
+  text-align: left;
+}
+#fixed {  
+  text-align: center;
+  float: left;
+  position: fixed;
+  padding: 20px;
+  width: 100px;
+  height: 80px
+  background: #eee;
+  z-index: 1;
+}
+
+#absolute {
+  padding: 40px;
+  background-color: #888;
+  position: absolute;
+  top: 350px;
+  left: 850px;
+  z-index: 3;
+}
+
+#relative {
+  background-color: #eee;
+  position: relative;
+  z-index: 2;
+}
