@@ -1,1 +1,1 @@
-# [Andrea Pinillos Portfolio Website](https://andreapinillos.github.io/portfolio/)
+# [Andrea Pinillos Portfolio Website](https://andreapinillos.github.io)
